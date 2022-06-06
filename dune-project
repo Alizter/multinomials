@@ -1,3 +1,3 @@
-(lang dune 2.8)
-(using coq 0.3)
+(lang dune 3.3)
+(using coq 0.4)
 (name multinomials)

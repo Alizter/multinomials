@@ -1,0 +1,14 @@
+(coq.theory
+ (name SsrMultinomials)
+ (mode native)
+ (package coq-mathcomp-multinomials)
+ (flags
+  -w -ambiguous-paths
+  -w -notation-overridden
+  -w -redundant-canonical-projection
+  -w -projection-no-head-constant)
+ (theories
+  mathcomp.ssreflect
+  mathcomp.algebra
+  mathcomp.bigenough
+  mathcomp.finmap))
